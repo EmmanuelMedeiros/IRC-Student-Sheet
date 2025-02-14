@@ -1,11 +1,14 @@
 # IRC Student sheet builder
 
 ## About the project
-This project intends to create a spreasheet mergin all the student's to their proper teacher with some data extracted from chatbot (from WENI platform), and then sending to a google drive
+A project made in order to generate a spreasheet mergin all the student's to their proper teacher. This data is extracted from a contact databse chatbot (from WENI platform), and then sending to a google drive
 <br/>
 ## Main Features
 - **Validating previous sheets**: When a spreasheet is already stored in it's drive, when another one of the same teacher is sent, the script automatically removes the previous one and insert the new one, not allowing file repetition. 
 - **Delete Sheet:** This script allows the sheet exclusion;
+
+## Why this project?
+This project was built in order to fulfill the IRC (International Rescue Comitee) request to generate dynamic spreadsheet in one of their chatbots.
 
 ## Techonoglies Applied
 - **Back end:** JavaScript/TypeScript; Express.js; Node.js
