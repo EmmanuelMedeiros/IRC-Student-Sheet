@@ -2,11 +2,11 @@ import * as path from 'path'
 import * as fs from 'fs'
 import { google } from 'googleapis'
 
-const clientID = "612410063482-eq7calm8reuccouvfk5f91o2dj51lss0.apps.googleusercontent.com";
-const clientSecret = "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";
+const clientID = "mock";
+const clientSecret = "mock";
 
-const redirectURI = "https://developers.google.com/oauthplayground/";
-const refreshToken = "1//04KZU7A4Wj6uICgYIARAAGAQSNwF-L9Irpk2tU2j6mUqGLKmSOKkEUZiQDr3wbNsw0pounegGskwE6uKSteKecGrwh-5uMmzSlIQ"
+const redirectURI = "mock";
+const refreshToken = "mock"
 
 
 const oAuthClient = new google.auth.OAuth2(
